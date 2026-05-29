@@ -1,0 +1,29 @@
+{
+	"name": "@byojs/matchall-starts-at",
+	"description": "Hopeful/future polyfill: add start-index behavior to matchAll() regex/string matching",
+	"version": "0.0.0-pre-202605291121",
+	"main": "./src/matchall-starts-at.js",
+	"type": "module",
+	"scripts": {
+		"test": "node test/runner.js"
+	},
+	"browser": {
+		"": "./src/matchall-starts-at.js"
+	},
+	"exports": {
+		".": {
+			"types": "./src/matchall-starts-at.d.ts",
+			"default": "./src/matchall-starts-at.js"
+		}
+	},
+	"repository": {
+		"url": "git+https://github.com/byojs/matchall-starts-at.git"
+	},
+	"bugs": {
+		"url": "https://github.com/byojs/matchall-starts-at/issues",
+		"email": "getify@gmail.com"
+	},
+	"homepage": "https://github.com/byojs/matchall-starts-at",
+	"author": "Kyle Simpson <getify@gmail.com>",
+	"license": "MIT"
+}
